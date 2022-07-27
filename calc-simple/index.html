@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HTML Simple Calc</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="body">
+        <form id="calculator">
+        <div class="addition">
+            <input type="number" name="k"/>
+            <input type="number" name="l"/>
+            <button id="addBtn">add</button>
+        </div>                   
+    
+        <div class="subtraction">
+            <input type="text" id="m" value=""/>
+            <input type="text" id="n" value=""/>
+            <button id="subtractBtn">subtract</button>
+        </div>
+        <div class="multi">
+            <input type="text" id="r" value=""/>
+            <input type="text" id="s" value=""/>
+            <button id="multiplyBtn">multiply</button>        
+        </div>
+
+        <div class="result1" id="addResult"></div>
+        <div class="result2" id="subtractResult"></div>
+        <div class="result3" id="multiplyResult"></div>
+    </form>
+        <script src="main.js" async defer></script>
+    </body>
+</html>

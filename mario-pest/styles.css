@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    font-family: 'Catamaran', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: red;
+    margin: 0;
+   
+}
+
+header {
+    margin-top: 16px;
+    background-color: rgb(66, 46, 46);
+    border: 11px solid #ff0004 ;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: 0px;
+}
+
+
+
+footer {
+    margin-top: 80px;
+    background-color: rgb(66, 46, 46);
+    border: 11px; border-color: black;
+     
+}
+

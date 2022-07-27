@@ -1,0 +1,25 @@
+body {
+    display: relative;
+    width: 50%;
+    margin: 15% auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form {
+    border: 2px solid rgb(143, 64, 148);
+    border-radius: 6px;
+    background-color: rgb(187, 126, 126);
+    line-height: 25px;
+    margin-top: -5px;
+    padding: 20px;
+}
+#firstName, #lastName {
+    font-size: 1.5em;
+    width: 90%;
+    padding:10px;
+}
+
+#submit-button {
+    font-size: 1.5em;
+    display: inline-block;
+    
+}

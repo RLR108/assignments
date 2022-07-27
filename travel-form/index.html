@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Travel Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form name="myForm">
+            First Name: <input type="text" name="firstName" required/>
+            Last Name: <input type="text" name="lastName" required/>
+            Age: <input type="number" name="age">
+            Gender:
+            Male:<input type="radio"  name="gender" value="Male"/>            
+            Female:<input type="radio" name="gender" value="Female"/>
+            They/Them:<input type="radio" name="gender" value="they/them"/>
+            What's your Destination?
+            <select name="city">
+                <option value="Dallas,Tx">Dallas,TX</option>
+                <option value="Miami,FL">Miami,FL</option>
+                <option value="Atlanta,GA">Atlanta,GA</option>                
+            </select>
+
+             Please select your dietary choice:
+            Chicken: <input type="checkbox" name="meal" value="chicken"/>
+            Beef: <input type="checkbox" name="meal" value="beef"/>
+            Vegan: <input type="checkbox" name="meal" value="vegan"/>
+
+        <button name="submitButton">Submit</button>
+
+        </form>
+        
+        
+        <script src="main.js" async defer></script>
+    </body>
+</html>
